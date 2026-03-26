@@ -12,7 +12,7 @@ import Blog from "./Blog";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/school-boiler-template/">
       <div className="mainContainer">
         <Nav />
         <div className="all">
