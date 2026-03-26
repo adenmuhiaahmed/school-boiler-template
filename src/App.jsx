@@ -9,6 +9,7 @@ import Gallery from "./Gallery";
 import Pathways from "./Pathways";
 import Blogs from "./Blogs";
 import Blog from "./Blog";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div className="mainContainer">
         <Nav />
         <div className="all">
+          <ScrollToTop />
           <Routes>
             <Route exact path="/" element={<Hero />}></Route>
             <Route exact path="/downloads" element={<Downloads />}></Route>
