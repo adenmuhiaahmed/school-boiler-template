@@ -79,7 +79,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div id="principals">
+      <div id="principles">
         <h1 className="section-title">Our Core Principals</h1>
 
         <div className="contPri">
@@ -135,7 +135,7 @@ function Hero() {
           <div className="card">
             <div className="img prinsi"></div>
             <p className="Name">Mr Mbugua</p>
-            <p className="role">Principle</p>
+            <p className="role">Principal</p>
             <p className="quote">
               “ We focus on delivering quality, student-centered learning. Every
               learner is equipped with skills for academic success. ”
